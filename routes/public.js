@@ -55,7 +55,7 @@ router.post('/login', async (req, res) => {
         }
 
         //Gera Token JWT
-        const token = jwt.sign({id: user.id}, JWT_SECRET, {expiresIn: '1m'})
+        const token = jwt.sign({id: user.id}, JWT_SECRET, {expiresIn: '1d'})
 
         res.status(200).json(token)
 
