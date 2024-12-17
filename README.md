@@ -1,11 +1,34 @@
-#Projeto de Autenticação com JWT
+# Projeto de Autenticação com JWT
 
-Desenvolvimento de API de Autenticação: Criação de uma API robusta para autenticação de usuários utilizando JSON Web Tokens (JWT), garantindo segurança e eficiência no controle de acesso.
+## Descrição
+Uma API robusta para autenticação de usuários utilizando **JSON Web Tokens (JWT)**, garantindo segurança e eficiência no controle de acesso.
 
-Implementação de Backend Escalável: Estruturação de um backend escalável com Node.js e Express, permitindo fácil integração com sistemas front-end e outros serviços.
+## Tecnologias Utilizadas
 
-Gerenciamento de Sessões e Permissões: Desenvolvimento de funcionalidades para gerenciamento de sessões de usuários e controle de permissões, assegurando que apenas usuários autorizados acessem recursos específicos.
+- **Node.js** e **Express** para o desenvolvimento do backend.
+- **MongoDB** para armazenamento seguro das credenciais e informações dos usuários.
+- **JWT** para geração e validação de tokens de autenticação.
+- **Jest** (ou outra biblioteca) para testes unitários.
+- **Swagger** (ou equivalente) para documentação da API.
 
-Integração com Banco de Dados: Conexão com banco de dados MongoDB para armazenamento seguro de credenciais e informações de usuários.
+---
 
-Documentação e Testes: Elaboração de documentação detalhada e realização de testes unitários para garantir a qualidade e a manutenção do código.
+## Funcionalidades
+
+1. **Autenticação de Usuários**
+   - Geração de tokens JWT no login.
+   - Validação dos tokens em rotas protegidas.
+
+2. **Gerenciamento de Sessões e Permissões**
+   - Controle de acessos a recursos conforme permissões de usuários.
+
+3. **Backend Escalável**
+   - Estruturação limpa e organizada com **Node.js** e **Express**.
+   - Suporte para integração com front-end e outros serviços.
+
+4. **Integração com Banco de Dados**
+   - Uso do **MongoDB** para persistir dados de forma segura.
+
+5. **Documentação e Testes**
+   - Documentação detalhada para uso da API.
+   - Testes unitários para validação das funcionalidades.
